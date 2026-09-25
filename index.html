@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Jayanta Nath</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home">JAYANTA NATH</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Quick edit list: name, city/location text, project links, and data-recipient email below. -->
+      <section id="home" class="hero reveal">
+        <div class="hero-copy">
+          <p class="kicker">Senior Full Stack Developer and Technical Lead</p>
+          <h1>I architect and deliver enterprise-grade cloud-native solutions.</h1>
+          <p>
+            Accomplished full-stack engineer with 19+ years of experience building
+            scalable platforms across Automotive, Banking, and Telecommunications.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See My Work</a>
+            <a class="btn btn-ghost" href="#contact">Start a Conversation</a>
+          </div>
+          <ul class="hero-stats" aria-label="Quick highlights">
+            <li>
+              <strong>19+ yrs</strong>
+              <span>Professional experience</span>
+            </li>
+            <li>
+              <strong>Azure</strong>
+              <span>Cloud-native engineering</span>
+            </li>
+            <li>
+              <strong>Global</strong>
+              <span>Clients in EU, US, and APAC</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Featured profile summary">
+          <p class="panel-tag">Featured profile</p>
+          <h2>Full-Stack Engineering with Technical Leadership</h2>
+          <p>
+            Hands-on technical lead specializing in C#, .NET, Angular, React,
+            Microservices, and Azure architecture.
+          </p>
+          <div class="panel-list">
+            <p><span>Role:</span> Senior Software Engineer at Volvo Cars</p>
+            <p><span>Based in:</span> Gothenburg, Sweden</p>
+            <p><span>Focus:</span> Cloud-native platforms and microservices</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">About</p>
+          <h2>Who I Am</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I transform complex business requirements into resilient, high-performance
+            applications. I combine architecture, coding, and team leadership to deliver
+            mission-critical software for organizations like Volvo Cars, T-Mobile,
+            Citi Bank, and Vestas.
+          </p>
+          <div class="about-cards">
+            <article>
+              <h3>Architecture and Engineering</h3>
+              <p>I design microservices and cloud-native systems using .NET, Azure, REST APIs, and GraphQL.</p>
+            </article>
+            <article>
+              <h3>Delivery and DevOps</h3>
+              <p>I build CI/CD pipelines with Azure DevOps and GitHub Actions to accelerate reliable releases.</p>
+            </article>
+            <article>
+              <h3>Leadership and Mentorship</h3>
+              <p>I mentor engineers on design patterns, clean coding standards, and performance optimization.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Skills</p>
+          <h2>How I Build</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Backend and Architecture</h3>
+            <ul>
+              <li><span>C#, .NET Core, .NET 6/8</span><em>Expert</em></li>
+              <li><span>Microservices, REST API, GraphQL</span><em>Expert</em></li>
+              <li><span>Entity Framework, Dapper, LINQ</span><em>Expert</em></li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Frontend and Cloud</h3>
+            <ul>
+              <li><span>Angular, React, Remix, TypeScript</span><em>Expert</em></li>
+              <li><span>Microsoft Azure, Function Apps, Logic Apps</span><em>Expert</em></li>
+              <li><span>Docker, Azure DevOps, GitHub Actions</span><em>Strong</em></li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Data and Domain</h3>
+            <ul>
+              <li><span>SQL Server, Cosmos DB, Snowflake, PostgreSQL</span><em>Expert</em></li>
+              <li><span>Databricks, HBase, Hive</span><em>Strong</em></li>
+              <li><span>Automotive, Banking, Telecom</span><em>Strong</em></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img
+              class="project-media"
+              src="assets/project-1.svg"
+              alt="Placeholder preview for project one"
+            />
+            <p class="project-type">Current Project</p>
+            <h3>WLTP REDA Compliance Platform | Volvo Cars</h3>
+            <p>
+              Architected and delivered a microservices platform calculating fuel
+              consumption and CO2 values for saleable vehicles to support global
+              compliance programs.
+            </p>
+            <a href="https://www.linkedin.com/in/jayanta-nath" aria-label="View Jayanta Nath LinkedIn profile">View profile</a>
+          </article>
+          <article class="project-card">
+            <img
+              class="project-media"
+              src="assets/project-2.svg"
+              alt="Placeholder preview for project two"
+            />
+            <p class="project-type">Current Project</p>
+            <h3>Strategic CO2 Monitoring Tool | Volvo Cars</h3>
+            <p>
+              Led development of a single source of truth platform for CO2 data,
+              improving prediction accuracy and reducing manual error across teams.
+            </p>
+            <a href="https://www.linkedin.com/in/jayanta-nath" aria-label="View Jayanta Nath LinkedIn profile">View profile</a>
+          </article>
+          <article class="project-card">
+            <img
+              class="project-media"
+              src="assets/project-3.svg"
+              alt="Placeholder preview for project three"
+            />
+            <p class="project-type">Current Project</p>
+            <h3>Battery Variant Management | Volvo Cars</h3>
+            <p>
+              Building a new application within the WLTP ecosystem for battery variant
+              lifecycle management using .NET, Remix, TypeScript, PostgreSQL, and Docker.
+            </p>
+            <a href="https://www.linkedin.com/in/jayanta-nath" aria-label="View Jayanta Nath LinkedIn profile">View profile</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="section-title-wrap">
+          <p class="section-kicker">Contact</p>
+          <h2>Let Us Build Scalable Digital Platforms</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <p>
+              Reach out for full-stack engineering, cloud architecture, and technical
+              leadership opportunities.
+            </p>
+            <p><strong>Email:</strong> jayanta.nath@hotmail.com</p>
+            <p><strong>Location:</strong> Gothenburg, Sweden</p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/jayanta-nath">www.linkedin.com/in/jayanta-nath</a>
+            </p>
+          </div>
+          <form id="contact-form" class="contact-form" data-recipient="jayanta.nath@hotmail.com">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Create Email Draft</button>
+            <p class="form-note">Submitting opens your default email app with a prefilled message.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright <span id="year"></span> Jayanta Nath. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
