@@ -17,7 +17,7 @@ This is a one-page, responsive portfolio website scaffold you can customize with
 - styles/style.css: Visual design, responsive layout, and animations
 - scripts/main.js: Menu toggle, reveal effects, dynamic year, and contact form mailto behavior
 - assets/project-1.svg, assets/project-2.svg, assets/project-3.svg: Replaceable project preview placeholders
-- assets/JayantaNath_Full-Stack-Developer.docx: Downloadable resume file
+- assets/JayantaNath-DotNet-FullStack-TechLead.pdf: Downloadable resume file
 - robots.txt and sitemap.xml: Search indexing guidance for crawlers
 
 ## Customize
@@ -27,7 +27,7 @@ This is a one-page, responsive portfolio website scaffold you can customize with
 3. Change the destination email in the data-recipient attribute on the contact form in index.html.
 4. Replace project link placeholders in index.html with real URLs.
 5. Swap the SVG files in assets/ with your own project screenshots if preferred.
-6. Replace assets/JayantaNath_Full-Stack-Developer.docx when you update your resume.
+6. Replace assets/JayantaNath-DotNet-FullStack-TechLead.pdf when you update your resume.
 
 ## Run
 
